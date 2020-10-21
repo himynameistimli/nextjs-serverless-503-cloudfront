@@ -3,12 +3,10 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-
-      <div style={{padding: "30px", display: "flex", flexDirection: "column", fontFamily: "sans-serif" }}>
+      <React.Fragment>
         <h1>{`Cloudfront 503/404 Error`}</h1>
-
         <p>
-          Dynamic SSR pages will return a 503/404 error when you refresh the page. They function normally when navigating from the index
+          {`Component: @sls-next/serverless-component@1.18.0-alpha.15`}
         </p>
 
         <Link href="/test">{`SSR Static Test`}</Link>
@@ -23,6 +21,6 @@ export default function Home() {
         <Link href="/cat/two">{`Type Cat Slug Two`}</Link>
 
 
-      </div>
+      </React.Fragment>
   )
 }

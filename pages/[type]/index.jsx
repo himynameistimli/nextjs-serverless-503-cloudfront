@@ -7,7 +7,7 @@ const TypePage = ({
   type
 }) => {
   return ( 
-    <div>Type: {type}</div>
+    <div>{`Static SSG Page`}<br/><br/>{`Type: ${type}`}</div>
   );
 };
 

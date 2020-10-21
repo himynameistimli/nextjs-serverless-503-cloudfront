@@ -1,5 +1,5 @@
 const TestPage = ({data}) =>{
-  return <div>Test Page: {data} </div>
+  return <div>Static Page<br/><br/>{data} </div>
 }
 
 export default TestPage;

@@ -1,6 +1,6 @@
 {
   "name": "firstTestDefaultLambda",
-  "hash": "52DHqKkiOqvPxjs1lig3iy1XrEsnunW1t5kLHUTiX3E=",
+  "hash": "kYK44WifBLdHl5TrCygdt4IOfBkF/5QzbljSdntQHWI=",
   "description": "Default Lambda@Edge for Next CloudFront distribution",
   "memory": 512,
   "timeout": 10,

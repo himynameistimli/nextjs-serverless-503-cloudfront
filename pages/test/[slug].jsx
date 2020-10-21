@@ -4,7 +4,7 @@ import classNames from 'classnames';
 
 const TestSlugPage = ({ slug }) => {
   return (
-    <div>Test Slug {slug}<br/>Try Refreshing This Page</div>
+    <div>{`Dynamic Page`}<br/><br/>{`Slug: ${slug}`}<br/><br/>{`Try Refreshing This Page`}</div>
   );
 };
 

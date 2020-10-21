@@ -7,7 +7,7 @@ const TypeSlugPage = ({
   type, slug
 }) => {
   return ( 
-    <div>Slug: {slug} Type: {type}</div>
+    <div>{`Dynamic SSG Page`}<br/><br/>{`Type: ${type}`}<br/>{`Slug: ${slug}`}</div>
   );
 };
 
