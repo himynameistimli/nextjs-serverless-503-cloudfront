@@ -1,5 +1,5 @@
 testRepo:
-  component: '@sls-next/serverless-component@1.17.0'
+  component: '@sls-next/serverless-component@1.18.0-alpha.15'
   inputs:
     publicDirectoryCache:
       value: public, max-age=31536000
