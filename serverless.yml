@@ -1,5 +1,6 @@
 testRepo:
-  component: '@sls-next/serverless-component@1.18.0-alpha.15'
+  component: '@sls-next/serverless-component@1.18.0-alpha.18'
+  # component: "/Users/tim/code/serverless-next.js/packages/serverless-components/nextjs-component"
   inputs:
     publicDirectoryCache:
       value: public, max-age=31536000
